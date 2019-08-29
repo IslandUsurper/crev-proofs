@@ -1,0 +1,23 @@
+-----BEGIN CREV PACKAGE REVIEW-----
+version: -1
+date: "2019-08-29T12:43:32.442187048-04:00"
+from:
+  id-type: crev
+  id: 1SnqOpTMHMwbP4vRBqdiMcIMecoRL0TX_zQ3HrTDs_w
+  url: "https://github.com/IslandUsurper/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: matches
+  version: 0.1.8
+  digest: wEgXzIZmN2BvT4dl90vyR0WVYgLwYc0BETwLJ_ySYOc
+review:
+  thoroughness: low
+  understanding: medium
+  rating: positive
+comment: |
+  Ran `cargo test` which passed. Seeing nested calls to `matches!` in the tests
+  was unexpected, but look like they would be hard to abuse or mis-use.
+-----BEGIN CREV PACKAGE REVIEW SIGNATURE-----
+f5357J-B1h-X4yLtvI06jLVmZi94ezy2MJa3sdp_kbUNwi4BpyhEvRVXGKef37T5xyj2_bWaVS1aSj2hJVKRAQ
+-----END CREV PACKAGE REVIEW-----
+
